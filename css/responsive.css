@@ -6,6 +6,22 @@
 
 @media (max-width: 768px) {}
 
+.text-center {
+    font-size: 50px;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.card {
+    font-size: 15px;
+}
+
+
+.why-us {
+    max-width: 700px;
+}
 
 
 
@@ -34,14 +50,20 @@
     }
 
     h2 {
-        font-size: 40px;
-        padding: 0 30px;
+        padding: 10px 50px;
     }
-    
+
+    .steps {
+        padding: 0px 70px;
+        margin: 0;
+    }
+
+
     .why-us {
         display: flex;
         flex-wrap: wrap;
-        max-width: 990px;
+        max-width: 999px;
+        margin: 0;
         background-color: rgb(37, 37, 37);
     }
 
