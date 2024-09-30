@@ -1,70 +1,35 @@
 /* MEDIA QUERIES */
 
-
-
-/* TABLET */
-
-@media (max-width: 768px) {}
-
-.text-center {
-    font-size: 50px;
-}
-
 .container {
-    max-width: 700px;
+    max-width: 100%;
 }
-
-.card {
-    font-size: 15px;
-}
-
-
-.why-us {
-    max-width: 700px;
-}
-
-
 
 /* MOBILE */
 
+
+
 @media (max-width: 480px) {
 
-    .text-center {
-        font-size: 55px;
-    }
-
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 990px;
-    }
-
     .row {
-        align-items: flex-start;
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 60px;
     }
 
-    .card {
-        font-size: 20px;
-        padding: 30px 25px;
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
     }
 
-    h2 {
-        padding: 10px 50px;
-    }
 
     .steps {
-        padding: 0px 70px;
-        margin: 0;
+        margin-bottom: 0;
     }
-
 
     .why-us {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 999px;
-        margin: 0;
-        background-color: rgb(37, 37, 37);
+        background-color: black;
+        padding: 3rem 0;
+        margin-bottom: 0;
     }
-
 }
